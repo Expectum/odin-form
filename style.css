@@ -51,6 +51,11 @@ body {
     display: flex;
 }
 
+@font-face {
+    font-family: "aliceInWonderland";
+    src: url(../fonts/Alice_in_Wonderland_3.ttf);
+}
+
 header {
     width: 460px;
     height: 1050px;
@@ -61,6 +66,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
+    color: white;
 }
 
 img {
@@ -79,10 +85,14 @@ header h1 {
     font-size: 50px;
     background: rgba(0, 0, 0, .2);
     text-align: center;
+    font-family: "aliceInWonderland";
 }
 header div {
     margin: 0 76px 10px;
     position: absolute;
     bottom: 0;
     font-size: 17px;
+}
+header div p a {
+    color: white;
 }
