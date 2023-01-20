@@ -104,7 +104,8 @@ header div p a {
 }
 
 div.upper-body {
-    width: 430px;
+    width: 540px;
     height: auto;
     margin: 100px 37px 0;
+    font-size: 20px;
 }
