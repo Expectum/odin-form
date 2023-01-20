@@ -102,3 +102,9 @@ header div {
 header div p a {
     color: white;
 }
+
+div.upper-body {
+    width: 430px;
+    height: auto;
+    margin: 100px 37px 0;
+}
