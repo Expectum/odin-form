@@ -50,6 +50,7 @@ table {
 body {
     display: flex;
 }
+
 header {
     width: 460px;
     height: 1050px;
@@ -60,12 +61,14 @@ header {
     display: flex;
     flex-direction: column;
 }
+
 img {
     width: 460px;
     height: 1050px;
 }
+
 h1 img {
-    width: 130px;
+    width: 60px;
     height: auto;
 } 
 
