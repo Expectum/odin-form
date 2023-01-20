@@ -81,6 +81,8 @@ header h1 {
     text-align: center;
 }
 header div {
+    margin: 0 76px 0;
     position: absolute;
     bottom: 0;
+    font-size: 17px;
 }
