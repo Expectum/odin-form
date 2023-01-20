@@ -110,3 +110,7 @@ div.upper-body {
     font-size: 20px;
     font-weight: bold;
 }
+
+div.upper-body i{
+    font-style: italic;
+}
