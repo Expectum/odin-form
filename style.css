@@ -50,6 +50,14 @@ table {
 body {
     display: flex;
 }
+header {
+    width: 460px;
+    height: 1050px;
+    background-image: url(../images/tarsierBackground.avif);
+    block-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 img {
     width: 460px;
     height: 1050px;
