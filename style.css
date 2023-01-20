@@ -57,6 +57,7 @@ header {
     block-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    display: flex;
 }
 img {
     width: 460px;
@@ -68,5 +69,5 @@ h1 img {
 } 
 
 header h1 {
-    
+
 }
