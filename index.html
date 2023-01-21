@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="../style.css">
     <title>Sign-Up-Form</title>
 </head>
+<script>
+    let check = function() {
+        if (document.getElementById('pwd').value == 
+        document.getElementById('confirm-pwd').value) {
+        document.getElementById('pwd').classList.remove('error');
+        document.getElementById('confirm-pwd').classList.remove('error');
+        } else {
+        document.getElementById('pwd').classList.add('error');
+        document.getElementById('confirm-pwd').classList.add('error');
+        }
+    }
+</script>
 <body>
     <header>
     <h1><img src="../images/socialismLogo.png" 
@@ -46,11 +58,11 @@
     </div>
     <div class="form-value">
         <label for="pwd">Password<br></label>
-        <input class="error" id="pwd" name="pwd" type="password">
+        <input id="pwd" name="pwd" type="password" oninput="check();">
     </div>
     <div class="form-value">
         <label for="confirm-pwd">Confirm Password<br></label>
-        <input class="error" id="confirm-pwd" name="confirm-pwd" type="password">
+        <input id="confirm-pwd" name="confirm-pwd" type="password" oninput="check();">
     </div>
     <div class="lower-body">
     
