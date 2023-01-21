@@ -8,14 +8,20 @@
     <title>Sign-Up-Form</title>
 </head>
 <script>
+    document.getElementById('pwd').classList.add('error');
+    document.getElementById('confirm-pwd').classList.add('error');
+    document.getElementById('pwd-span').innerHTML = '*Passwords do not match';
     let check = function() {
-        if (document.getElementById('pwd').value == 
-        document.getElementById('confirm-pwd').value) {
-        document.getElementById('pwd').classList.remove('error');
-        document.getElementById('confirm-pwd').classList.remove('error');
-        } else {
+        if ((document.getElementById('pwd').value != 
+        document.getElementById('confirm-pwd').value)||
+        (document.getElementById('pwd').value == '')) {
         document.getElementById('pwd').classList.add('error');
         document.getElementById('confirm-pwd').classList.add('error');
+        document.getElementById('pwd-span').innerHTML = '*Passwords do not match';
+        } else {
+        document.getElementById('pwd').classList.remove('error');
+        document.getElementById('confirm-pwd').classList.remove('error');
+        document.getElementById('pwd-span').innerHTML = '';
         }
     }
 </script>
@@ -58,7 +64,8 @@
     </div>
     <div class="form-value">
         <label for="pwd">Password<br></label>
-        <input id="pwd" name="pwd" type="password" oninput="check();">
+        <input id="pwd" name="pwd" type="password" oninput="check();"><br>
+        <span id="pwd-span"></span>
     </div>
     <div class="form-value">
         <label for="confirm-pwd">Confirm Password<br></label>
@@ -70,6 +77,5 @@
    </form>
     </div>
 </main>
-
 </body>
 </html>
