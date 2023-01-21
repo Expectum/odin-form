@@ -103,6 +103,10 @@ header div p a {
     color: white;
 }
 
+main {
+    background-color: #f9f9f9;
+}
+
 div.upper-body {
     width: 540px;
     height: auto;
