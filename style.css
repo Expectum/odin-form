@@ -120,11 +120,15 @@ div.upper-body i{
 }
 
 div.middle-lower-body {
+    height: 100px;
     background-color: white;
     margin: 50px 0 0;
+    display: flex;
 }
 
 div.form-title {
     font-size: 20px;
     font-weight: bold;
+    margin: 15px 37px 0;
 }
+
