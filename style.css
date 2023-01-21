@@ -166,3 +166,8 @@ span {
     color: red;
     font-size: 13.5px;
 }
+
+button {
+    background-color: #596D48;
+    padding: 10px 37px 10px;
+}
