@@ -53,16 +53,15 @@
         <label for="confirm-pwd">Confirm Password<br></label>
         <input id="confirm-pwd" name="confirm-pwd" type="password" oninput="check();">
     </div>
-    <div class="lower-body">
+    </div>
     <div class="form-value">
         <button id="accBtn" type="submit">Create Account</button>
     </div>
    </form>
-    </div>
-    </div>
 </main>
 </body>
 <script>
+    document.getElementById('accBtn').disabled = true;
     document.getElementById('pwd').classList.add('error');
     document.getElementById('confirm-pwd').classList.add('error');
     document.getElementById('pwd-span').innerText = '*Passwords do not match';
@@ -70,10 +69,12 @@
         if ((document.getElementById('pwd').value != 
         document.getElementById('confirm-pwd').value)||
         (document.getElementById('pwd').value == '')) {
+        document.getElementById('accBtn').disabled = true;
         document.getElementById('pwd').classList.add('error');
         document.getElementById('confirm-pwd').classList.add('error');
         document.getElementById('pwd-span').innerText = '*Passwords do not match';
         } else {
+        document.getElementById('accBtn').disabled = false;
         document.getElementById('pwd').classList.remove('error');
         document.getElementById('confirm-pwd').classList.remove('error');
         document.getElementById('pwd-span').innerText = '';
