@@ -133,3 +133,10 @@ div.form-title {
     margin: 15px 37px 0;
 }
 
+form {
+    display: flex;
+}
+
+div.form-value {
+    margin: 20px 37px 0;
+}
