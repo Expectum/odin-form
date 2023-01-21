@@ -148,6 +148,11 @@ input {
     border-radius: 3px;
 }
 
+input:focus {
+    outline: none;
+    border-color: blue;
+}
+
 .error {
     border-color: red;
 }
