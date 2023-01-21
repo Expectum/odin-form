@@ -142,3 +142,8 @@ form {
 div.form-value {
     margin: 20px 37px 0;
 }
+
+input {
+    border-color: #E5E7EB;
+    border-radius: 3px;
+}
