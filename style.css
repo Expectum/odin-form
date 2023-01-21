@@ -118,3 +118,8 @@ div.upper-body {
 div.upper-body i{
     font-style: italic;
 }
+
+div.form-title {
+    font-size: 20px;
+    font-weight: bold;
+}
