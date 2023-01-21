@@ -120,7 +120,7 @@ div.upper-body i{
 }
 
 div.middle-lower-body {
-    height: 235px;
+    height: 245px;
     width: 614px;
     background-color: white;
     margin: 50px 0 0;
@@ -144,8 +144,11 @@ div.form-value {
 }
 
 input {
-    border-color: #E5E7EB;
+    width: 220px;
+    height: 20px;
+    border: 1px solid #E5E7EB;
     border-radius: 3px;
+    font-size: 13px;
 }
 
 input:focus {
