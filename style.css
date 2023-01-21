@@ -163,7 +163,7 @@ input:focus {
     border-color: red;
 }
 
-span {
+span#pwd-span {
     color: red;
     font-size: 13.5px;
 }
