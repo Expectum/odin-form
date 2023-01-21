@@ -120,6 +120,7 @@ div.upper-body i{
 }
 
 div.middle-lower-body {
+    position: relative;
     height: 245px;
     width: 614px;
     background-color: white;
@@ -168,7 +169,8 @@ span {
 }
 
 button {
-    margin: 22px 0 0;
+    position: absolute;
+    margin: 11px 0 0;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
