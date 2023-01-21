@@ -124,6 +124,7 @@ div.middle-lower-body {
     background-color: white;
     margin: 50px 0 0;
     display: flex;
+    flex-direction: column;
 }
 
 div.form-title {
