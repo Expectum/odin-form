@@ -63,18 +63,18 @@
 <script>
     document.getElementById('pwd').classList.add('error');
     document.getElementById('confirm-pwd').classList.add('error');
-    document.getElementById('pwd-span').innerHTML = '*Passwords do not match';
+    document.getElementById('pwd-span').innerText = '*Passwords do not match';
     let check = function() {
         if ((document.getElementById('pwd').value != 
         document.getElementById('confirm-pwd').value)||
         (document.getElementById('pwd').value == '')) {
         document.getElementById('pwd').classList.add('error');
         document.getElementById('confirm-pwd').classList.add('error');
-        document.getElementById('pwd-span').innerHTML = '*Passwords do not match';
+        document.getElementById('pwd-span').innerText = '*Passwords do not match';
         } else {
         document.getElementById('pwd').classList.remove('error');
         document.getElementById('confirm-pwd').classList.remove('error');
-        document.getElementById('pwd-span').innerHTML = '';
+        document.getElementById('pwd-span').innerText = '';
         }
     }
 </script>
